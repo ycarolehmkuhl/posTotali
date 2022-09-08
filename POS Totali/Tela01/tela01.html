@@ -6,43 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- CSS only -->
   <link rel="stylesheet" href="css/estiloTela01.css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="js/bootstrap.bundle.min.js">
+  </script>
+
   <title>Tela01</title>
 </head>
 
 <body>
-  <div id="above">
-    <nav class="navbar">
-      <div class="parent">
-        <div class="div1">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="../imagens/totali.png" width="150" height="50" alt="" loading="lazy" />
-            </a>
-            <div class="parent">
-              <div class="div2">
-              </div>
-            </div>
-            <div class="parent">
-              <div class="div3">
-                <div class="menu">
-                  <a href="#" style="text-decoration: none">Funções F5</a>
-                  <a href="#" style="text-decoration: none">Fiscal F6</a>
-                  <a href="#" style="text-decoration: none">Ajuda F3</a>
-                  <a href="#" style="text-decoration: none">Nome do usuário</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </nav>
-    <div class="produto">
-      <div class="container-fluid">
-        <h1>Nome do Produto</h1>
-        <div class="parent">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <img src="../imagens/totali.png" alt="TotaliLogo" width="200" height="100">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Funções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fiscal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fiscal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ajuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nome do usuário</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="parent">
+    <div id="above">
+      <div class="produto">
+        <div class="container-fluid">
+          <h1>Nome do Produto</h1>
           <div class="div1">
             <div class="aboveTabela">
-            <div class="card">
+              <div class="card">
                 <div class="grid-container">
                   <img src="../imagens/pneu.jpeg" width="50%" height="50%" alt="" loading="lazy" />
                   <div class="custoProduto">
@@ -55,38 +61,52 @@
                   </div>
                 </div>
               </div>
-            </div>  
-          </div>
-          <div class="div2">
-            <div class="aboveTabela">
-              <table>
-                <tr>
-                  <th></th>
-                  <th></th>
-                </tr>
-                <tr>
-                  <td>Abraçadeira NY 140X3,5MM BR Class</td>
-                  <td>Pneu </td>
-                </tr>
-                <tr>
-                  <td>R$50,00</td>
-                  <td></td>
-                </tr>
-              </table>
             </div>
           </div>
-          <div class="div3">
-              <div class="aboveBotoes">
-                <button class="btn default">Cliente F1</button>
-                <button class="btn default">Ve</button>
-                <button class="btn default">Default</button>
-                <button class="btn default">Default</button>
-                <button class="btn default">Default</button>
-                <button class="btn default">Default</button>
-                <h1>Valor:</h1>
-              </div>
-          </div>
         </div>
+      </div>
+    </div>
+    <div class="div2">
+      <div class="aboveTabela">
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td colspan="2">Abraçadeira NY 140x3.5MM BR CLASS </td>
+              <td colspan="2">R$ 14,90 </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td colspan="2">Abraçadeira NY 140x3.5MM BR CLASS </td>
+              <td colspan="2">R$ </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Abraçadeira NY 140x3.5MM BR CLASS </td>
+              <td colspan="2">R$ </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td colspan="2">Abraçadeira NY 140x3.5MM BR CLASS </td>
+              <td colspan="2">R$ </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="div3">
+      <div class="aboveBotoes">
+        <button class="btn default">Cliente F1</button>
+        <button class="btn default">Ve</button>
+        <button class="btn default">Default</button>
+        <button class="btn default">Default</button>
+        <button class="btn default">Default</button>
+        <button class="btn default">Default</button>
+        <h1>Valor:</h1>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
 
 </html>
