@@ -1,5 +1,7 @@
-
-
+.aoRedor {
+    margin: 10px 10px 10px 10px;
+    border: solid 1px black;
+}
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,11 +11,33 @@
     
 .div1 { 
     grid-area: 1 / 1 / 2 / 2; 
+    width: 80%;
 }
-.div2 { 
-    grid-area: 1 / 2 / 2 / 3; 
+.div2 {
+    grid-area: 1 / 2 / 2 / 4;
+    width: 70%;
 }
-.div3 { 
-    grid-area: 1 / 3 / 2 / 4; 
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    display: grid;
+    justify-content: end;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+
+/* Botoes */
+button.btn.btn-lg.finalizar {
+    background: #198754;
+    color: white;
+    
+}
+button.btn.btn-lg.cancela {
+    background: #ff912b;
+    color: white;
+}
+button.btn.btn-lg {
+    background: #dee2e6;
 }
 
