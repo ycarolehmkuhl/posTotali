@@ -40,4 +40,7 @@ button.btn.btn-lg.cancela {
 button.btn.btn-lg {
     background: #dee2e6;
 }
+ul.nav.flex-column {
+    align-items: center;
+}
 
