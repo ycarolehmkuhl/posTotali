@@ -24,6 +24,14 @@ body {
     justify-content: space-between;
     
 }
+a.nav-link {
+    color: white;
+    border-right: solid 1px;
+}
+a.nav-link:hover{
+    color: black;
+}
+
 .nav-link {
     color: #141619;
     text-decoration: none;
@@ -88,7 +96,6 @@ body {
     background: #008f004f;
 }
 
-
 /* Botoes */
 button.btn.btn-lg.finalizar {
     background: #198754;
@@ -104,5 +111,21 @@ button.btn.btn-lg {
 }
 ul.nav.flex-column {
     align-items: center;
+}
+button.btn.btn-lg {
+    background: #dee2e6;
+    margin: 2px 0px 2px 0px;
+    width: 222px;
+}
+.valorTotal {
+    margin: 10px 10px 10px 74px;
+}
+/* letras */
+.valorTotal h2 {
+    color: green;
+}
+.valorTotal p {
+    margin-bottom: 0px;
+    margin-left: 42px;
 }
 
