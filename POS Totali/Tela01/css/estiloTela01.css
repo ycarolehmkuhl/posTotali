@@ -6,20 +6,34 @@ body {
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    background: white;
 }
+
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: flex;
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
 }
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+.nav-link {
+    color: #141619;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin: 30px 10px 10px 10px;
+}
 .aoRedor {
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
     border: solid 1px black;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .titulo {
     margin: 20px 10px 20px 20px;
@@ -67,6 +81,11 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
+}
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background: #008f004f;
 }
 
 
