@@ -51,6 +51,24 @@ body {
     display: flex!important;
     flex-basis: auto;
 }
+.table-overflow {
+    max-height:400px;
+    overflow-y:auto;
+}
+.aoredorBotoes {
+    margin: -60px 13px 0px 0px;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 90%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
 
 /* Botoes */
 button.btn.btn-lg.finalizar {
