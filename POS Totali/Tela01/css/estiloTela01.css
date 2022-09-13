@@ -95,6 +95,13 @@ a.nav-link:hover{
     justify-content: flex-start;
     background: #008f004f;
 }
+.card-body {
+    flex: 1 1 auto;
+    color: var(--bs-card-color);
+    margin: 0px 0px 0px 0px;
+    width: 90%;
+    padding: 0px 0px 0px 0px;
+}
 
 /* Botoes */
 button.btn.btn-lg.finalizar {
@@ -105,17 +112,14 @@ button.btn.btn-lg.cancela {
     background: #ff912b;
     color: white;
 }
+
 button.btn.btn-lg {
     background: #dee2e6;
     margin: 2px 0px 2px 0px;
+    width: 271px;
 }
 ul.nav.flex-column {
     align-items: center;
-}
-button.btn.btn-lg {
-    background: #dee2e6;
-    margin: 2px 0px 2px 0px;
-    width: 222px;
 }
 .valorTotal {
     margin: 10px 10px 10px 74px;
