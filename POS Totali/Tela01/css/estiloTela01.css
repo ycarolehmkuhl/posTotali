@@ -94,7 +94,7 @@ a.nav-link:hover{
 .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
-    background: #008f004f;
+    background: hsl(160, 13%, 59%);
 }
 .card-body {
     flex: 1 1 auto;
