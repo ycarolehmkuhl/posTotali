@@ -50,9 +50,15 @@ a.nav-link:hover {
 }
 
 .aoRedor {
-    margin: 0px 0px 0px 0px;
-    border: solid 1px black;
+    margin: 0px 10px 0px 10px;
+    border: solid 1px #ced4da;
     border-radius: 5px;
+}
+
+ul.nav.justify-content-end {
+    font-size: 10px;
+    align-items: baseline;
+    margin-top: -36px;
 }
 
 .titulo {
