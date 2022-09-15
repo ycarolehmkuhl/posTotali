@@ -13,7 +13,13 @@ body {
 
 }
 
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -62,6 +68,11 @@ a.nav-link:hover {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: 0px 0px 0px 54px;
+}
+
+.p-3.border.bg-light.\31 {
+    color: blue;
 }
 
 .div1 {
@@ -70,13 +81,15 @@ a.nav-link:hover {
 }
 
 .vendaFinalizada {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
-
 
 img.card-img-top {
     margin: 0px 0px -32px 0px;
@@ -103,6 +116,7 @@ img.card-img-top {
     flex-basis: auto;
     margin-top: -19px;
 }
+
 ul.nav.justify-content-end {
     font-size: 10px;
     align-items: baseline;
@@ -115,7 +129,7 @@ ul.nav.justify-content-end {
 }
 
 .aoredorBotoes {
-    margin: -62px 13px 0px 0px;
+    margin: -100px 13px 171px 0px;
     padding-top: 0px;
     width: 60%;
 }
@@ -164,7 +178,7 @@ ul.nav.flex-column {
 
 .valorFinal {
     color: #558C2E;
-    padding: 229px 0px 0px 94px;
+    padding: 406px 0px 0px 111px;
 }
 
 .text-muted {
@@ -200,8 +214,48 @@ table.tableProduto {
     justify-content: center;
 }
 
+.coluna1 {
+    width: 130px;
+    margin: 0px 0px 0px 20px;
+}
+
+.coluna2 {
+    width: 224px;
+}
+
+.coluna3 {
+    width: 224px;
+}
+
+.coluna5 {
+    width: 224px;
+}
+
+.p-3.border.bg-light {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: stretch;
+    min-height: 44px;
+    max-height: 44px;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 5px;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+
 .ProdVenda {
-    width: 41%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
 }
 
 /* RESPOSIVIDADE */
@@ -214,7 +268,7 @@ table.tableProduto {
     .produto {
         margin: 5px 0px 0px 0px;
     }
-    
+
 
 
 }
