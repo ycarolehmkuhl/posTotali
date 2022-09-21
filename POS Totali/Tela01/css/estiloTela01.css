@@ -1,16 +1,11 @@
 body {
-    margin: 0px 0px 0px 0px;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    padding: 0px 0px 0px 0px;
+    display: block;
+    margin: 8px;
+    background: #adc0c6;
 }
+/* nav.navbarHeader {
+    background: #adc0c6;
+} */
 
 .navbar>.container,
 .navbar>.container-fluid,
@@ -53,6 +48,7 @@ a.nav-link:hover {
     margin: 0px 10px 0px 10px;
     border: solid 1px #ced4da;
     border-radius: 5px;
+    background: white;
 }
 
 ul.nav.justify-content-end {
