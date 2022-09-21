@@ -148,6 +148,7 @@ ul.nav.justify-content-end {
 .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    background-image: url("../../imagens/TELA_O1-01.png");
     background: #A8BBBF;
 }
 
